@@ -21,3 +21,7 @@ Browser("Nacional Monte de Piedad").Page("Blog | Nacional Monte").Link("Cultura 
 Browser("Nacional Monte de Piedad").Page("Blog | Nacional Monte_2").Link("Conócelas aquí").Click @@ hightlight id_;_Browser("Nacional Monte de Piedad").Page("Blog | Nacional Monte 2").Link("Conócelas aquí")_;_script infofile_;_ZIP::ssf20.xml_;_
 Browser("Nacional Monte de Piedad").Page("Porque el empeño es la").Link("Conoce los pasos para").Click @@ hightlight id_;_Browser("Nacional Monte de Piedad").Page("Porque el empeño es la").Link("Conoce los pasos para")_;_script infofile_;_ZIP::ssf21.xml_;_
 Browser("Nacional Monte de Piedad").Page("Empeño Clásico | Nacional").Link("Refrendo").Click @@ hightlight id_;_Browser("Nacional Monte de Piedad").Page("Empeño Clásico | Nacional").Link("Refrendo")_;_script infofile_;_ZIP::ssf22.xml_;_
+
+Browser("Nacional Monte de Piedad").Page("Nacional Monte de Piedad").Link("BLOG").Click @@ hightlight id_;_Browser("Nacional Monte de Piedad").Page("Nacional Monte de Piedad").Link("BLOG")_;_script infofile_;_ZIP::ssf23.xml_;_
+Browser("Nacional Monte de Piedad").Page("Blog | Nacional Monte").Link("Ahorro").Click @@ hightlight id_;_Browser("Nacional Monte de Piedad").Page("Blog | Nacional Monte").Link("Ahorro")_;_script infofile_;_ZIP::ssf24.xml_;_
+Browser("Nacional Monte de Piedad").Page("Blog | Nacional Monte_3").Link("Autos").Click @@ hightlight id_;_Browser("Nacional Monte de Piedad").Page("Blog | Nacional Monte 3").Link("Autos")_;_script infofile_;_ZIP::ssf25.xml_;_
