@@ -14,7 +14,6 @@ Browser("Nacional Monte de Piedad").Page("Simulador | Nacional Monte").Frame("Fr
 Browser("Nacional Monte de Piedad").Page("Simulador | Nacional Monte").Frame("Frame").WebElement("calculoBtn").Click @@ hightlight id_;_Browser("Nacional Monte de Piedad").Page("Simulador | Nacional Monte").Frame("Frame").WebElement("calculoBtn")_;_script infofile_;_ZIP::ssf14.xml_;_
 Browser("Nacional Monte de Piedad").Page("Simulador | Nacional Monte").Link("Contacto").Click @@ hightlight id_;_Browser("Nacional Monte de Piedad").Page("Simulador | Nacional Monte").Link("Contacto")_;_script infofile_;_ZIP::ssf15.xml_;_
 
-Browser("Nacional Monte de Piedad").Page("Nacional Monte de Piedad").Link("BLOG").Click @@ hightlight id_;_Browser("Nacional Monte de Piedad").Page("Nacional Monte de Piedad").Link("BLOG")_;_script infofile_;_ZIP::ssf16.xml_;_
  @@ hightlight id_;_Browser("Nacional Monte de Piedad").Page("Blog | Nacional Monte").Link("PREREGISTRO")_;_script infofile_;_ZIP::ssf17.xml_;_
 Browser("Nacional Monte de Piedad").Page("Nacional Monte de Piedad").Link("BLOG").Click @@ hightlight id_;_Browser("Nacional Monte de Piedad").Page("Nacional Monte de Piedad").Link("BLOG")_;_script infofile_;_ZIP::ssf18.xml_;_
 Browser("Nacional Monte de Piedad").Page("Blog | Nacional Monte").Link("Cultura Financiera").Click @@ hightlight id_;_Browser("Nacional Monte de Piedad").Page("Blog | Nacional Monte").Link("Cultura Financiera")_;_script infofile_;_ZIP::ssf19.xml_;_
