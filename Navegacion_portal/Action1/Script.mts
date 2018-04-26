@@ -25,3 +25,5 @@ Browser("Nacional Monte de Piedad").Page("Empeño Clásico | Nacional").Link("Re
 Browser("Nacional Monte de Piedad").Page("Nacional Monte de Piedad").Link("BLOG").Click @@ hightlight id_;_Browser("Nacional Monte de Piedad").Page("Nacional Monte de Piedad").Link("BLOG")_;_script infofile_;_ZIP::ssf23.xml_;_
 Browser("Nacional Monte de Piedad").Page("Blog | Nacional Monte").Link("Ahorro").Click @@ hightlight id_;_Browser("Nacional Monte de Piedad").Page("Blog | Nacional Monte").Link("Ahorro")_;_script infofile_;_ZIP::ssf24.xml_;_
 Browser("Nacional Monte de Piedad").Page("Blog | Nacional Monte_3").Link("Autos").Click @@ hightlight id_;_Browser("Nacional Monte de Piedad").Page("Blog | Nacional Monte 3").Link("Autos")_;_script infofile_;_ZIP::ssf25.xml_;_
+
+'Se detecta defecto defect #1025
