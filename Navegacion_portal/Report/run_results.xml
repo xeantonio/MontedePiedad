@@ -9,7 +9,7 @@
 <Data>
     <Name>smnu-01.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:29</StartTime>
+    <StartTime>2018-04-26 11:40:01</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -44,7 +44,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>b5cab43b36524a278407d379a5e48627</IconKey>
+      <IconKey>1cdc65b0a6f94c7d8bb04360d9bb42af</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -53,7 +53,7 @@
 <Data>
     <Name>¿Cómo empeño?.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:30</StartTime>
+    <StartTime>2018-04-26 11:40:02</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -84,7 +84,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>d6dd5a46ef7444a98cafdabb2b13af98</IconKey>
+      <IconKey>68dd7f345cf24f439d5a87b5c56d7c54</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -92,8 +92,8 @@
 <Data>
     <Name>Nacional Monte de Piedad</Name>
     <Description>Page</Description>
-    <StartTime>2018-04-26 11:28:29</StartTime>
-    <Duration>3</Duration>
+    <StartTime>2018-04-26 11:40:01</StartTime>
+    <Duration>2</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -110,7 +110,7 @@
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>deb68d3abe694828b67b55575820e50a</IconKey>
+      <IconKey>e136e332163d489484c35ba3480af102</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -118,9 +118,61 @@
 <ReportNode type="Context">
 <ReportNode type="Step">
 <Data>
+    <Name>"¿QUÉ PUEDO EMPEÑAR?"- Smart Identification</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not unique (2 objects found)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;text=¿QUÉ PUEDO EMPEÑAR?&lt;br&gt;role=&lt;br&gt;micclass=Link&lt;br&gt;html tag=A&lt;br&gt;acc_name=&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (95 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+micclass=Link&lt;br&gt;html tag=A&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+text=¿QUÉ PUEDO EMPEÑAR?&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 2 matches)&lt;/SPAN&gt;&lt;br&gt;html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 2 matches)&lt;/SPAN&gt;&lt;br&gt;class=list-group-item&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 2 matches)&lt;/SPAN&gt;&lt;br&gt;name=¿QUÉ PUEDO EMPEÑAR?&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 2 matches)&lt;/SPAN&gt;&lt;br&gt;href=http://www.montepiedad.com.mx/portal/que-puedo-empenar.html&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 2 matches)&lt;/SPAN&gt;&lt;br&gt;visible=1&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2018-04-26 11:40:03</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Nacional Monte de Piedad]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[¿Cómo Empeñar? | Nacional]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[¿QUÉ PUEDO EMPEÑAR?]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not unique (2 objects found)</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>text=¿QUÉ PUEDO EMPEÑAR?<br>role=<br>micclass=Link<br>html tag=A<br>acc_name=<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (95 objects found)&nbsp;</FONT></u><br>
+micclass=Link<br>html tag=A<br><br><FONT face=Verdana size=2><u>Optional filter properties</FONT></u><br>
+text=¿QUÉ PUEDO EMPEÑAR?<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>class=list-group-item<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>name=¿QUÉ PUEDO EMPEÑAR?<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>href=http://www.montepiedad.com.mx/portal/que-puedo-empenar.html<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>visible=1<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[¿QUÉ PUEDO EMPEÑAR?]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[role]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>5357932d71b14443b570960f350b6d6d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
     <Name>¿QUÉ PUEDO EMPEÑAR?.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:32</StartTime>
+    <StartTime>2018-04-26 11:40:03</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -159,7 +211,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>d6dd5a46ef7444a98cafdabb2b13af98</IconKey>
+      <IconKey>68dd7f345cf24f439d5a87b5c56d7c54</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -167,8 +219,8 @@
 <Data>
     <Name>¿Cómo Empeñar? | Nacional</Name>
     <Description>Page</Description>
-    <StartTime>2018-04-26 11:28:32</StartTime>
-    <Duration>1</Duration>
+    <StartTime>2018-04-26 11:40:03</StartTime>
+    <Duration>2</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -185,7 +237,7 @@
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>deb68d3abe694828b67b55575820e50a</IconKey>
+      <IconKey>e136e332163d489484c35ba3480af102</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -195,7 +247,7 @@
 <Data>
     <Name>OFERTA PERSONALIZADA.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:33</StartTime>
+    <StartTime>2018-04-26 11:40:05</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -234,7 +286,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>d6dd5a46ef7444a98cafdabb2b13af98</IconKey>
+      <IconKey>68dd7f345cf24f439d5a87b5c56d7c54</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -242,8 +294,8 @@
 <Data>
     <Name>¿Qué puedo empeñar? |</Name>
     <Description>Page</Description>
-    <StartTime>2018-04-26 11:28:33</StartTime>
-    <Duration>2</Duration>
+    <StartTime>2018-04-26 11:40:05</StartTime>
+    <Duration>1</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -260,7 +312,7 @@
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>deb68d3abe694828b67b55575820e50a</IconKey>
+      <IconKey>e136e332163d489484c35ba3480af102</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -270,7 +322,7 @@
 <Data>
     <Name>SIMULADOR.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:35</StartTime>
+    <StartTime>2018-04-26 11:40:06</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -309,7 +361,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>d6dd5a46ef7444a98cafdabb2b13af98</IconKey>
+      <IconKey>68dd7f345cf24f439d5a87b5c56d7c54</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -317,7 +369,7 @@
 <Data>
     <Name>Oferta Personalizada |</Name>
     <Description>Page</Description>
-    <StartTime>2018-04-26 11:28:35</StartTime>
+    <StartTime>2018-04-26 11:40:06</StartTime>
     <Duration>2</Duration>
     <Result>Done</Result>
     <Extension>
@@ -335,7 +387,7 @@
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>deb68d3abe694828b67b55575820e50a</IconKey>
+      <IconKey>e136e332163d489484c35ba3480af102</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -348,7 +400,7 @@
     <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not unique (2 objects found)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;name=&lt;br&gt;micclass=Frame&lt;br&gt;html id=&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (3 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 micclass=Frame&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 name=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 3 matches)&lt;/SPAN&gt;&lt;br&gt;title=Calculadora&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;url=http://www.montepiedad.com.mx/portal/storage/calculadoras/prestamo/prestamo.html&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
-    <StartTime>2018-04-26 11:28:37</StartTime>
+    <StartTime>2018-04-26 11:40:08</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -381,7 +433,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>e09d6f8a0203419881ff3990bd115612</IconKey>
+      <IconKey>5357932d71b14443b570960f350b6d6d</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -390,7 +442,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
 <Data>
     <Name>Joyas.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:37</StartTime>
+    <StartTime>2018-04-26 11:40:08</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -425,7 +477,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>9501c1ff335a46348de382cb0842aaf4</IconKey>
+      <IconKey>a160a16820df4035a6a8f0cbe3070d50</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -436,7 +488,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
     <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not unique (2 objects found)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;name=&lt;br&gt;micclass=Frame&lt;br&gt;html id=&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (3 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 micclass=Frame&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 name=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 3 matches)&lt;/SPAN&gt;&lt;br&gt;title=Calculadora&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;url=http://www.montepiedad.com.mx/portal/storage/calculadoras/prestamo/prestamo.html&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
-    <StartTime>2018-04-26 11:28:37</StartTime>
+    <StartTime>2018-04-26 11:40:08</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -469,7 +521,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>e09d6f8a0203419881ff3990bd115612</IconKey>
+      <IconKey>5357932d71b14443b570960f350b6d6d</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -478,7 +530,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
 <Data>
     <Name>CONTINUAR.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:37</StartTime>
+    <StartTime>2018-04-26 11:40:08</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -517,7 +569,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>9501c1ff335a46348de382cb0842aaf4</IconKey>
+      <IconKey>a160a16820df4035a6a8f0cbe3070d50</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -528,7 +580,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
     <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not unique (2 objects found)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;name=&lt;br&gt;micclass=Frame&lt;br&gt;html id=&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (3 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 micclass=Frame&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 name=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 3 matches)&lt;/SPAN&gt;&lt;br&gt;title=Calculadora&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;url=http://www.montepiedad.com.mx/portal/storage/calculadoras/prestamo/prestamo.html&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
-    <StartTime>2018-04-26 11:28:37</StartTime>
+    <StartTime>2018-04-26 11:40:09</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -561,7 +613,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>e09d6f8a0203419881ff3990bd115612</IconKey>
+      <IconKey>5357932d71b14443b570960f350b6d6d</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -570,7 +622,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
 <Data>
     <Name>WebEdit.Set</Name>
     <Description>"15000"</Description>
-    <StartTime>2018-04-26 11:28:37</StartTime>
+    <StartTime>2018-04-26 11:40:09</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -618,7 +670,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>b352057bd5944a1b9fbf20555a59cf48</IconKey>
+      <IconKey>b5b6b8dde79a4bd19350b2ef5d0113d7</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -629,7 +681,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
     <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not unique (2 objects found)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;name=&lt;br&gt;micclass=Frame&lt;br&gt;html id=&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (3 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 micclass=Frame&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 name=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 3 matches)&lt;/SPAN&gt;&lt;br&gt;title=Calculadora&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;url=http://www.montepiedad.com.mx/portal/storage/calculadoras/prestamo/prestamo.html&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
-    <StartTime>2018-04-26 11:28:37</StartTime>
+    <StartTime>2018-04-26 11:40:09</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -662,7 +714,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>e09d6f8a0203419881ff3990bd115612</IconKey>
+      <IconKey>5357932d71b14443b570960f350b6d6d</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -671,7 +723,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
 <Data>
     <Name>CONTINUAR_2.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:37</StartTime>
+    <StartTime>2018-04-26 11:40:09</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -710,7 +762,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>9501c1ff335a46348de382cb0842aaf4</IconKey>
+      <IconKey>a160a16820df4035a6a8f0cbe3070d50</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -721,7 +773,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
     <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not unique (2 objects found)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;name=&lt;br&gt;micclass=Frame&lt;br&gt;html id=&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (3 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 micclass=Frame&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 name=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 3 matches)&lt;/SPAN&gt;&lt;br&gt;title=Calculadora&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;url=http://www.montepiedad.com.mx/portal/storage/calculadoras/prestamo/prestamo.html&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
-    <StartTime>2018-04-26 11:28:37</StartTime>
+    <StartTime>2018-04-26 11:40:09</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -754,7 +806,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>e09d6f8a0203419881ff3990bd115612</IconKey>
+      <IconKey>5357932d71b14443b570960f350b6d6d</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -763,7 +815,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
 <Data>
     <Name>Empeño Clásico Tienes.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:37</StartTime>
+    <StartTime>2018-04-26 11:40:09</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -798,7 +850,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>9501c1ff335a46348de382cb0842aaf4</IconKey>
+      <IconKey>a160a16820df4035a6a8f0cbe3070d50</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -809,7 +861,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
     <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not unique (2 objects found)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;name=&lt;br&gt;micclass=Frame&lt;br&gt;html id=&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (3 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 micclass=Frame&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 name=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 3 matches)&lt;/SPAN&gt;&lt;br&gt;title=Calculadora&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;url=http://www.montepiedad.com.mx/portal/storage/calculadoras/prestamo/prestamo.html&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
-    <StartTime>2018-04-26 11:28:38</StartTime>
+    <StartTime>2018-04-26 11:40:09</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -842,7 +894,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>e09d6f8a0203419881ff3990bd115612</IconKey>
+      <IconKey>5357932d71b14443b570960f350b6d6d</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -851,7 +903,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
 <Data>
     <Name>paso3.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:38</StartTime>
+    <StartTime>2018-04-26 11:40:09</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -886,7 +938,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>9501c1ff335a46348de382cb0842aaf4</IconKey>
+      <IconKey>a160a16820df4035a6a8f0cbe3070d50</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -897,7 +949,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
     <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not unique (2 objects found)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;name=&lt;br&gt;micclass=Frame&lt;br&gt;html id=&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (3 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 micclass=Frame&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 name=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 3 matches)&lt;/SPAN&gt;&lt;br&gt;title=Calculadora&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;url=http://www.montepiedad.com.mx/portal/storage/calculadoras/prestamo/prestamo.html&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
-    <StartTime>2018-04-26 11:28:38</StartTime>
+    <StartTime>2018-04-26 11:40:09</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -930,7 +982,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>e09d6f8a0203419881ff3990bd115612</IconKey>
+      <IconKey>5357932d71b14443b570960f350b6d6d</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -939,7 +991,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
 <Data>
     <Name>CONTINUAR_3.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:38</StartTime>
+    <StartTime>2018-04-26 11:40:09</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -978,7 +1030,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>9501c1ff335a46348de382cb0842aaf4</IconKey>
+      <IconKey>a160a16820df4035a6a8f0cbe3070d50</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -989,7 +1041,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
     <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not unique (2 objects found)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;name=&lt;br&gt;micclass=Frame&lt;br&gt;html id=&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (3 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 micclass=Frame&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 name=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 3 matches)&lt;/SPAN&gt;&lt;br&gt;title=Calculadora&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;url=http://www.montepiedad.com.mx/portal/storage/calculadoras/prestamo/prestamo.html&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
-    <StartTime>2018-04-26 11:28:38</StartTime>
+    <StartTime>2018-04-26 11:40:09</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1022,7 +1074,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>e09d6f8a0203419881ff3990bd115612</IconKey>
+      <IconKey>5357932d71b14443b570960f350b6d6d</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1031,7 +1083,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
 <Data>
     <Name>Sí.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:38</StartTime>
+    <StartTime>2018-04-26 11:40:09</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1066,7 +1118,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>9501c1ff335a46348de382cb0842aaf4</IconKey>
+      <IconKey>a160a16820df4035a6a8f0cbe3070d50</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1077,7 +1129,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
     <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not unique (2 objects found)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;name=&lt;br&gt;micclass=Frame&lt;br&gt;html id=&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (3 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 micclass=Frame&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 name=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 3 matches)&lt;/SPAN&gt;&lt;br&gt;title=Calculadora&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;url=http://www.montepiedad.com.mx/portal/storage/calculadoras/prestamo/prestamo.html&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
-    <StartTime>2018-04-26 11:28:38</StartTime>
+    <StartTime>2018-04-26 11:40:09</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1110,7 +1162,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>e09d6f8a0203419881ff3990bd115612</IconKey>
+      <IconKey>5357932d71b14443b570960f350b6d6d</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1119,7 +1171,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
 <Data>
     <Name>calculoBtn.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:38</StartTime>
+    <StartTime>2018-04-26 11:40:09</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1154,7 +1206,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>9501c1ff335a46348de382cb0842aaf4</IconKey>
+      <IconKey>a160a16820df4035a6a8f0cbe3070d50</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1162,8 +1214,8 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
 <Data>
     <Name>Frame</Name>
     <Description>Frame</Description>
-    <StartTime>2018-04-26 11:28:37</StartTime>
-    <Duration>1</Duration>
+    <StartTime>2018-04-26 11:40:08</StartTime>
+    <Duration>2</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1194,7 +1246,59 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>deb68d3abe694828b67b55575820e50a</IconKey>
+      <IconKey>e136e332163d489484c35ba3480af102</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"Contacto"- Smart Identification</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not unique (2 objects found)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;text=Contacto&lt;br&gt;role=&lt;br&gt;micclass=Link&lt;br&gt;html tag=A&lt;br&gt;acc_name=&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (94 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+micclass=Link&lt;br&gt;html tag=A&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+text=Contacto&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 2 matches)&lt;/SPAN&gt;&lt;br&gt;html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 2 matches)&lt;/SPAN&gt;&lt;br&gt;class=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;name=Contacto&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;href=http://www.montepiedad.com.mx/portal/contacto.html&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;visible=1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2018-04-26 11:40:10</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Nacional Monte de Piedad]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Simulador | Nacional Monte]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Contacto]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not unique (2 objects found)</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>text=Contacto<br>role=<br>micclass=Link<br>html tag=A<br>acc_name=<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (94 objects found)&nbsp;</FONT></u><br>
+micclass=Link<br>html tag=A<br><br><FONT face=Verdana size=2><u>Optional filter properties</FONT></u><br>
+text=Contacto<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>class=<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>name=Contacto<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>href=http://www.montepiedad.com.mx/portal/contacto.html<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>visible=1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Contacto]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[role]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>5357932d71b14443b570960f350b6d6d</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1203,7 +1307,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
 <Data>
     <Name>Contacto.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:38</StartTime>
+    <StartTime>2018-04-26 11:40:10</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1242,7 +1346,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>d6dd5a46ef7444a98cafdabb2b13af98</IconKey>
+      <IconKey>68dd7f345cf24f439d5a87b5c56d7c54</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1250,7 +1354,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
 <Data>
     <Name>Simulador | Nacional Monte</Name>
     <Description>Page</Description>
-    <StartTime>2018-04-26 11:28:37</StartTime>
+    <StartTime>2018-04-26 11:40:08</StartTime>
     <Duration>3</Duration>
     <Result>Done</Result>
     <Extension>
@@ -1268,7 +1372,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>deb68d3abe694828b67b55575820e50a</IconKey>
+      <IconKey>e136e332163d489484c35ba3480af102</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1278,7 +1382,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
 <Data>
     <Name>BLOG.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:40</StartTime>
+    <StartTime>2018-04-26 11:40:11</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1317,59 +1421,7 @@ name=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>title=Calculadora<SP
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>d6dd5a46ef7444a98cafdabb2b13af98</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-  </Data>
-</ReportNode>
-<ReportNode type="Step">
-<Data>
-    <Name>"BLOG"- Smart Identification</Name>
-    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not unique (2 objects found)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;text=BLOG&lt;br&gt;role=&lt;br&gt;micclass=Link&lt;br&gt;html tag=A&lt;br&gt;acc_name=&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (119 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
-micclass=Link&lt;br&gt;html tag=A&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
-text=BLOG&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 2 matches)&lt;/SPAN&gt;&lt;br&gt;html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 2 matches)&lt;/SPAN&gt;&lt;br&gt;class=bkg-008 li-bkg-02&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;name=BLOG&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;href=http://www.montepiedad.com.mx/portal/blog.html&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;visible=1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
-    <StartTime>2018-04-26 11:28:41</StartTime>
-    <Result>Done</Result>
-    <Extension>
-      <TestObject>
-        <Repository>Local</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[Nacional Monte de Piedad]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[Nacional Monte de Piedad]]></Name>
-          </Object>
-          <Object>
-            <Type>Link</Type>
-            <Name><![CDATA[BLOG]]></Name>
-          </Object>
-        </Path>
-        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not unique (2 objects found)</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>text=BLOG<br>role=<br>micclass=Link<br>html tag=A<br>acc_name=<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (119 objects found)&nbsp;</FONT></u><br>
-micclass=Link<br>html tag=A<br><br><FONT face=Verdana size=2><u>Optional filter properties</FONT></u><br>
-text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>class=bkg-008 li-bkg-02<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>name=BLOG<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>href=http://www.montepiedad.com.mx/portal/blog.html<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>visible=1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
-        <Properties>
-          <Property>
-            <Name><![CDATA[text]]></Name>
-            <Value><![CDATA[BLOG]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[role]]></Name>
-            <Value><![CDATA[]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[A]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[acc_name]]></Name>
-            <Value><![CDATA[]]></Value>
-          </Property>
-        </Properties>
-      </TestObject>
-      <IconKey>e09d6f8a0203419881ff3990bd115612</IconKey>
+      <IconKey>68dd7f345cf24f439d5a87b5c56d7c54</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1378,7 +1430,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
 <Data>
     <Name>BLOG.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:41</StartTime>
+    <StartTime>2018-04-26 11:40:13</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1417,7 +1469,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>d6dd5a46ef7444a98cafdabb2b13af98</IconKey>
+      <IconKey>68dd7f345cf24f439d5a87b5c56d7c54</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1425,7 +1477,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
 <Data>
     <Name>Nacional Monte de Piedad</Name>
     <Description>Page</Description>
-    <StartTime>2018-04-26 11:28:40</StartTime>
+    <StartTime>2018-04-26 11:40:11</StartTime>
     <Duration>3</Duration>
     <Result>Done</Result>
     <Extension>
@@ -1443,7 +1495,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>deb68d3abe694828b67b55575820e50a</IconKey>
+      <IconKey>e136e332163d489484c35ba3480af102</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1453,7 +1505,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
 <Data>
     <Name>Cultura Financiera.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:43</StartTime>
+    <StartTime>2018-04-26 11:40:14</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1492,7 +1544,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>d6dd5a46ef7444a98cafdabb2b13af98</IconKey>
+      <IconKey>68dd7f345cf24f439d5a87b5c56d7c54</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1500,8 +1552,8 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
 <Data>
     <Name>Blog | Nacional Monte</Name>
     <Description>Page</Description>
-    <StartTime>2018-04-26 11:28:43</StartTime>
-    <Duration>1</Duration>
+    <StartTime>2018-04-26 11:40:14</StartTime>
+    <Duration>2</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1518,7 +1570,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>deb68d3abe694828b67b55575820e50a</IconKey>
+      <IconKey>e136e332163d489484c35ba3480af102</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1528,7 +1580,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
 <Data>
     <Name>Conócelas aquí.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:44</StartTime>
+    <StartTime>2018-04-26 11:40:16</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1567,7 +1619,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>d6dd5a46ef7444a98cafdabb2b13af98</IconKey>
+      <IconKey>68dd7f345cf24f439d5a87b5c56d7c54</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1575,7 +1627,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
 <Data>
     <Name>Blog | Nacional Monte_2</Name>
     <Description>Page</Description>
-    <StartTime>2018-04-26 11:28:44</StartTime>
+    <StartTime>2018-04-26 11:40:16</StartTime>
     <Duration>2</Duration>
     <Result>Done</Result>
     <Extension>
@@ -1593,7 +1645,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>deb68d3abe694828b67b55575820e50a</IconKey>
+      <IconKey>e136e332163d489484c35ba3480af102</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1603,7 +1655,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
 <Data>
     <Name>Conoce los pasos para.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:46</StartTime>
+    <StartTime>2018-04-26 11:40:18</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1634,7 +1686,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>d6dd5a46ef7444a98cafdabb2b13af98</IconKey>
+      <IconKey>68dd7f345cf24f439d5a87b5c56d7c54</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1642,8 +1694,8 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
 <Data>
     <Name>Porque el empeño es la</Name>
     <Description>Page</Description>
-    <StartTime>2018-04-26 11:28:46</StartTime>
-    <Duration>1</Duration>
+    <StartTime>2018-04-26 11:40:18</StartTime>
+    <Duration>2</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1660,7 +1712,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>deb68d3abe694828b67b55575820e50a</IconKey>
+      <IconKey>e136e332163d489484c35ba3480af102</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1670,7 +1722,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
 <Data>
     <Name>Refrendo.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:47</StartTime>
+    <StartTime>2018-04-26 11:40:20</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1709,7 +1761,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>d6dd5a46ef7444a98cafdabb2b13af98</IconKey>
+      <IconKey>68dd7f345cf24f439d5a87b5c56d7c54</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1717,8 +1769,8 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
 <Data>
     <Name>Empeño Clásico | Nacional</Name>
     <Description>Page</Description>
-    <StartTime>2018-04-26 11:28:47</StartTime>
-    <Duration>1</Duration>
+    <StartTime>2018-04-26 11:40:20</StartTime>
+    <Duration>2</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1735,7 +1787,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>deb68d3abe694828b67b55575820e50a</IconKey>
+      <IconKey>e136e332163d489484c35ba3480af102</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1745,7 +1797,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
 <Data>
     <Name>BLOG.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:48</StartTime>
+    <StartTime>2018-04-26 11:40:22</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1784,7 +1836,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>d6dd5a46ef7444a98cafdabb2b13af98</IconKey>
+      <IconKey>68dd7f345cf24f439d5a87b5c56d7c54</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1792,8 +1844,8 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
 <Data>
     <Name>Nacional Monte de Piedad</Name>
     <Description>Page</Description>
-    <StartTime>2018-04-26 11:28:48</StartTime>
-    <Duration>0</Duration>
+    <StartTime>2018-04-26 11:40:22</StartTime>
+    <Duration>1</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1810,7 +1862,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>deb68d3abe694828b67b55575820e50a</IconKey>
+      <IconKey>e136e332163d489484c35ba3480af102</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1820,7 +1872,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
 <Data>
     <Name>Ahorro.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:48</StartTime>
+    <StartTime>2018-04-26 11:40:23</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1859,7 +1911,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>d6dd5a46ef7444a98cafdabb2b13af98</IconKey>
+      <IconKey>68dd7f345cf24f439d5a87b5c56d7c54</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1867,7 +1919,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
 <Data>
     <Name>Blog | Nacional Monte</Name>
     <Description>Page</Description>
-    <StartTime>2018-04-26 11:28:48</StartTime>
+    <StartTime>2018-04-26 11:40:23</StartTime>
     <Duration>1</Duration>
     <Result>Done</Result>
     <Extension>
@@ -1885,7 +1937,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>deb68d3abe694828b67b55575820e50a</IconKey>
+      <IconKey>e136e332163d489484c35ba3480af102</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1895,7 +1947,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
 <Data>
     <Name>Autos.Click</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:49</StartTime>
+    <StartTime>2018-04-26 11:40:24</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1934,7 +1986,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>d6dd5a46ef7444a98cafdabb2b13af98</IconKey>
+      <IconKey>68dd7f345cf24f439d5a87b5c56d7c54</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1942,7 +1994,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
 <Data>
     <Name>Blog | Nacional Monte_3</Name>
     <Description>Page</Description>
-    <StartTime>2018-04-26 11:28:49</StartTime>
+    <StartTime>2018-04-26 11:40:24</StartTime>
     <Duration>0</Duration>
     <Result>Done</Result>
     <Extension>
@@ -1960,7 +2012,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>deb68d3abe694828b67b55575820e50a</IconKey>
+      <IconKey>e136e332163d489484c35ba3480af102</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1968,8 +2020,8 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
 <Data>
     <Name>Nacional Monte de Piedad</Name>
     <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
-    <StartTime>2018-04-26 11:28:29</StartTime>
-    <Duration>20</Duration>
+    <StartTime>2018-04-26 11:40:01</StartTime>
+    <Duration>23</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1982,7 +2034,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
         </Path>
         <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
       </TestObject>
-      <IconKey>180b7bc4a81a4805acb0c7df3d5831f4</IconKey>
+      <IconKey>81fa32eb90664e9fa93697bf3c1df462</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1990,12 +2042,12 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
 <Data>
     <Name>Action1</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:28</StartTime>
-    <Duration>21</Duration>
+    <StartTime>2018-04-26 11:40:01</StartTime>
+    <Duration>23</Duration>
     <Result>Done</Result>
     <InputParameters />
     <Extension>
-      <IconKey>36ccad9fee9248fbbbf2cd8abfa597c3</IconKey>
+      <IconKey>183c9c6b667a403ebff9a04900803ec9</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -2003,11 +2055,11 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
 <Data>
     <Name>Action0</Name>
     <Description />
-    <StartTime>2018-04-26 11:28:26</StartTime>
-    <Duration>23</Duration>
+    <StartTime>2018-04-26 11:39:57</StartTime>
+    <Duration>28</Duration>
     <Result>Done</Result>
     <Extension>
-      <IconKey>c37844fcac264cfb99ea42621d00016f</IconKey>
+      <IconKey>93859b3aa6014e108e3a05cbf54136e3</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Index>1</Index>
@@ -2031,12 +2083,12 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
     <ToolName>HPE Unified Functional Testing</ToolName>
     <ToolVersion>14.1</ToolVersion>
     <Description />
-    <StartTime>2018-04-26 11:28:25</StartTime>
-    <Duration>25</Duration>
+    <StartTime>2018-04-26 11:39:57</StartTime>
+    <Duration>28</Duration>
     <Result>Done</Result>
     <InputParameters />
     <Extension>
-      <IconKey>ee70cb473a8245f0a0ed8d017a396ffe</IconKey>
+      <IconKey>896be796785445bcafae53d77a24ad79</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Environment>
@@ -2058,7 +2110,7 @@ text=BLOG<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>html id=<SPAN cl
 </ReportNode>
 <GeneralInfo>
     <ResultName>Navegacion_portal</ResultName>
-    <RunStartTime>2018-04-26 11:28:25</RunStartTime>
+    <RunStartTime>2018-04-26 11:39:57</RunStartTime>
     <Timezone>-07:00:00</Timezone>
     <OrchestrationToolName>HPE Unified Functional Testing</OrchestrationToolName>
     <OrchestrationToolVersion>14.1</OrchestrationToolVersion>
